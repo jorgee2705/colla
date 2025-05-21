@@ -1,0 +1,290 @@
+.pstBannerCountdownItem {
+    line-height: 1.1;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.pstbannercountdown {
+    padding-bottom: 0.8em;
+}
+#header #pbc-products a,
+#header #pbc-products a img {
+    max-height: none;
+}
+body .pbc-countdown-col {
+    padding: 0;
+    float: left;
+}
+.pbc-countdown-col .pbc-countdown-col-products {
+    padding: 0 15px;
+}
+#footer .pbc-countdown-col,
+#left_column .pbc-countdown-col,
+#right_column .pbc-countdown-col {
+    padding: 0 15px;
+}
+#footer .pstBannerCountdownItem .ajax_block_product,
+#left_column .pstBannerCountdownItem .ajax_block_product,
+#right_column .pstBannerCountdownItem .ajax_block_product {
+    width: 100%;
+}
+
+#footer .pstb-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pbc-custom,
+/*.pbc-inactive,*/
+.pstb-hidden {
+    display: none !important;
+}
+
+.pstb-wrp .pst-banner-link {
+    display: contents;
+}
+
+.pbc-block-image {
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    width: auto !important;
+    display: inline-block !important;
+}
+.pbc-products {
+    padding-top: 10px;
+    margin-bottom: 0 !important;
+}
+
+.pbc-sticky-top,
+.pbc-sticky-bottom {
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    padding: 0 !important;
+}
+.pbc-sticky-top {
+    top: 0;
+}
+.pbc-sticky-bottom {
+    bottom: 0;
+}
+.pbc-sticky-top .pstBannerCountdownItem,
+.pbc-sticky-bottom .pstBannerCountdownItem {
+    background-size: auto;
+}
+.pstb_close {
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+}
+@media (max-width: 767px) {
+    .pstb_close {
+        right: 10px;
+    }
+}
+.pbc-sticky-top .pstb_close,
+.pbc-sticky-bottom .pstb_close {
+    right: 0;
+}
+.pstb-wrp {
+    overflow: hidden;
+}
+.pstb-wrp.pstbh_displayBanner .row {
+    margin: 0;
+}
+.pstb-wrp.pstbh_displayBanner .pbc-countdown-col {
+    padding: 0;
+}
+.pstb-wrp.pstbh_displayBanner .container .pbc-countdown-col {
+    padding: 0 15px;
+}
+
+.pstbannercountdown.pbc-show-colon .pbc-main .pbc-count:after {
+    content: ':';
+    display: block;
+    position: absolute;
+    color: white;
+    right: -0.16em;
+    top: 0;
+}
+.pstbannercountdown.pbc-show-colon .pbc-diff-m100 .days .pbc-count:after {
+    right: -10px;
+}
+.pstbannercountdown.pbc-show-colon .seconds .pbc-count:after {
+    display: none;
+}
+body .pstbannercountdown.pbc-show-colon .pbc-main .pbc-count {
+    overflow: visible;
+}
+
+#pbc_preview_wrp {
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    line-height: 1;
+    color: #fff;
+    background-color: #31b0d5;
+    border: 1px solid #269abc;
+    padding: 10px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    border-radius: 4px;
+    z-index: 99999;
+}
+#pbc_preview_wrp label {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+#pbc_preview_wrp input {
+    vertical-align: top;
+    margin-top: 1px;
+}
+#pbc_preview_wrp .checker {
+    display: inline-block;
+}
+
+
+@media (max-width: 767px) {
+    .pbc-hide-xs {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .pbc-hide-sm {
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pbc-hide-md {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .pbc-hide-lg {
+        display: none;
+    }
+}
+
+.pstb-wrp .pbc-block-align-left {
+    text-align: left;
+}
+.pstb-wrp .pbc-block-align-center {
+    text-align: center;
+}
+.pstb-wrp .pbc-block-align-right {
+    text-align: right;
+}
+.lang-rtl .pstb-wrp .pbc-block-align-left {
+    text-align: right;
+}
+.lang-rtl .pstb-wrp .pbc-block-align-right {
+    text-align: left;
+}
+.lang-rtl .pstb-wrp .pbc-block-align-center {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .pstb-wrp .pbc-block-xs-align-left {
+        text-align: left;
+    }
+    .pstb-wrp .pbc-block-xs-align-center {
+        text-align: center;
+    }
+    .pstb-wrp .pbc-block-xs-align-right {
+        text-align: right;
+    }
+    .lang-rtl .pstb-wrp .pbc-block-xs-align-left {
+        text-align: right;
+    }
+    .lang-rtl .pstb-wrp .pbc-block-xs-align-right {
+        text-align: left;
+    }
+    .lang-rtl .pstb-wrp .pbc-block-xs-align-center {
+        text-align: center;
+    }
+}
+
+.pstb-wrp .row-aligned {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.pstb-wrp .row-aligned:before {
+    display: block;
+}
+.pstb-wrp .row-aligned .pbc-block-valign-center {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+.pstb-wrp .row-aligned .pbc-block-valign-bottom {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+@media (max-width: 767px) {
+    .pstb-wrp .row-aligned .pbc-block-xs-valign-center {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+    .pstb-wrp .row-aligned .pbc-block-xs-valign-bottom {
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+    }
+}
+#header .pstb-wrp .pst-banner-link {
+    max-height: none;
+    max-width: none;
+}
+#header .pstb-wrp .pbc-countdown-col p:last-child,
+.pstb-wrp .pbc-countdown-col p:last-child {
+    margin-bottom: 0;
+}
+.pstb-wrp .product-miniature .products {
+    justify-content: space-evenly;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.lang-rtl .pstbannercountdown.pbc-show-colon .pbc-main .pbc-count:after {
+    left: -0.16em;
+    right: auto !important;
+}
+.pstb-wrp .pstBannerCountdownItem {
+    display: flex;
+    align-items: center;
+}
+.pstb-wrp .pstBannerCountdownItem > .row {
+    flex-grow: 1;
+}
+.pstb-wrp .pst-banner-link > .row {
+    flex: 0 0 100%;
+    flex-grow: 1;
+}
+.pstb-wrp .pstbannercountdown.pbc-hide-days .pbc-time.days {
+    display: none !important;
+}

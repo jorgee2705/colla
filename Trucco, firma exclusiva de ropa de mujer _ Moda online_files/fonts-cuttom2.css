@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900,regular&latin");
+
+h1 { font-family:Raleway; font-weight:400; }
+h2 { font-family:Raleway; }
+h3 { font-family:Raleway; }
+h4 { font-family:Raleway; font-weight:500; }
+h5 { font-family:Raleway; }
+h6 { font-family:Raleway; }
+p { font-family:Raleway; }
+a { font-family:Raleway; }
+span { font-family:Raleway; font-weight:600; }

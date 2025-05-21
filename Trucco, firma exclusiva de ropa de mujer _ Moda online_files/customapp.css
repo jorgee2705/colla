@@ -1,0 +1,21 @@
+.body-custom-app .TdkHeaderContainer, .customapp .TdkHeaderContainer{
+  display:none;
+}
+
+@media (max-width: 992px) {
+  .body-custom-app #wrapper, .customapp #wrapper  {
+    margin-top: 0px !important;
+  }
+}
+
+.body-custom-app #TdkFooter, .customapp #TdkFooter  {
+  display:none;
+}
+
+#product.body-custom-app #wrapper ,#product.customapp #wrapper {
+  margin-bottom: 250px;
+}
+
+.body-custom-app .cart-grid,.customapp .cart-grid {
+  margin-top: 0 !important;
+}

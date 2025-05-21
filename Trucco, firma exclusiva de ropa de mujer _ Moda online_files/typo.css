@@ -1,0 +1,297 @@
+/*-----------------------------------------------------------------------------
+
+  - Revolution Slider 2.0 Captions -
+
+    Screen Stylesheet
+
+version:    1.4.5
+date:       09/18/11
+last update: 06.12.2012
+author:   themepunch
+email:      info@themepunch.com
+website:    http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.layerslider-wrapper {
+  margin: 0 auto;
+  position: relative;
+  z-index: 9; }
+
+.rev_slider {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 940px;
+  z-index: 9; }
+
+.bannercontainer {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden; }
+  .bannercontainer .banner-fullwidth {
+    width: 100% !important;
+    max-height: 500px !important; }
+  .bannercontainer .fullwidthbanner {
+    max-height: 500px !important;
+    overflow: hidden !important;
+    padding: 0;
+    position: relative; }
+  .bannercontainer.banner-fullwidth {
+    width: 100% !important; }
+  .bannercontainer div.caption {
+    cursor: pointer; }
+  .bannercontainer .tp-hide-revslider, .bannercontainer .tp-caption.tp-hidden-caption {
+    visibility: hidden !important;
+    display: none !important; }
+  .bannercontainer .tp-caption {
+    z-index: 1;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap; }
+    .bannercontainer .tp-caption.data-link {
+      cursor: pointer; }
+    .bannercontainer .tp-caption.btn {
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 0.9375rem 2.5rem;
+      text-transform: none; }
+    .bannercontainer .tp-caption.data-link {
+      cursor: pointer; }
+    .bannercontainer .tp-caption.big_white {
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 2.563rem;
+      line-height: 3.375rem;
+      text-align: center;
+      text-transform: none; }
+    .bannercontainer .tp-caption.big_orange {
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 0.8125rem;
+      line-height: 0.8125rem;
+      padding: 0.3125rem 0.75rem;
+      background-color: #e0525c; }
+    .bannercontainer .tp-caption.big_black {
+      color: #272727;
+      font-weight: 500;
+      font-size: 4rem;
+      line-height: 4.875rem;
+      text-transform: none; }
+    .bannercontainer .tp-caption.medium_grey {
+      color: #FFFFFF;
+      font-weight: 300;
+      font-size: 0.8125rem;
+      text-transform: none;
+      width: 20.63rem;
+      white-space: inherit; }
+    .bannercontainer .tp-caption.small_text {
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1rem; }
+    .bannercontainer .tp-caption.medium_text {
+      color: #282828;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.3125rem; }
+    .bannercontainer .tp-caption.large_text {
+      color: #272727;
+      font-weight: 500;
+      font-size: 4rem;
+      line-height: 4.875rem;
+      text-transform: none;
+      text-align: center; }
+    .bannercontainer .tp-caption.large_black_text {
+      color: #000000;
+      font-weight: 300;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      text-transform: none; }
+    .bannercontainer .tp-caption.very_large_text {
+      text-align: center;
+      font-size: 2.063rem;
+      line-height: 3rem;
+      color: #272727;
+      white-space: inherit; }
+      .bannercontainer .tp-caption.very_large_text .showTextSlideshow {
+        background: #FFFFFF;
+        padding: 3.125rem 2.5rem;
+        min-height: 25rem;
+        width: 35.63rem; }
+      .bannercontainer .tp-caption.very_large_text .subTitle {
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: #ee4448;
+        margin-bottom: 1.25rem;
+        display: block;
+        line-height: 1.5rem; }
+      .bannercontainer .tp-caption.very_large_text .mainTitle {
+        border: 1px dotted #ee4448;
+        display: block;
+        text-transform: none;
+        width: 23.13rem;
+        margin: 0 auto 1.875rem;
+        padding: 2.5rem; }
+      .bannercontainer .tp-caption.very_large_text .btnSlideshow {
+        display: block; }
+        .bannercontainer .tp-caption.very_large_text .btnSlideshow a {
+          font-size: 1rem;
+          text-transform: none; }
+    .bannercontainer .tp-caption.very_large_black_text {
+      color: #272727;
+      font-weight: 400;
+      line-height: 4.75rem;
+      text-transform: none;
+      padding-bottom: 3.75rem;
+      text-align: center;
+      white-space: inherit;
+      font-size: 3.5rem;
+      margin-bottom: 3.75rem; }
+      @media (min-width: 768px) {
+        .bannercontainer .tp-caption.very_large_black_text {
+          width: 430px; } }
+      .bannercontainer .tp-caption.very_large_black_text:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 2.188rem;
+        background: #ee4448;
+        width: 4.375rem;
+        height: 0.125rem; }
+    .bannercontainer .tp-caption.bold_red_text {
+      color: #d31e00;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.25rem; }
+    .bannercontainer .tp-caption.bold_brown_text {
+      color: #a04606;
+      font-weight: 800;
+      font-size: 1.25rem;
+      line-height: 1.25rem; }
+    .bannercontainer .tp-caption.bold_green_text {
+      color: #5b9830;
+      font-weight: 800;
+      font-size: 1.25rem;
+      line-height: 1.25rem; }
+    .bannercontainer .tp-caption.very_big_white {
+      color: #FFFFFF;
+      font-size: 16rem;
+      font-weight: 500;
+      line-height: 16rem; }
+    .bannercontainer .tp-caption.very_big_black {
+      color: #272727;
+      font-weight: 400;
+      font-size: 4.75rem;
+      line-height: 4.75rem;
+      text-transform: none;
+      position: relative;
+      padding-bottom: 3.75rem; }
+      .bannercontainer .tp-caption.very_big_black:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 0;
+        background: #ee4448;
+        width: 4.375rem;
+        height: 0.125rem; }
+    .bannercontainer .tp-caption.cus_black {
+      color: #272727;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 3.375rem;
+      letter-spacing: 0.125rem; }
+    .bannercontainer .tp-caption.cus_color {
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.563rem;
+      text-transform: none;
+      width: 35.63rem;
+      text-align: center;
+      white-space: inherit; }
+    .bannercontainer .tp-caption.boxshadow {
+      -moz-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.5);
+      -o-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.5);
+      -ms-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.5); }
+    .bannercontainer .tp-caption.black {
+      color: #282828;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.3125rem;
+      padding-left: 5rem; }
+      .rtl .bannercontainer .tp-caption.black {
+        padding-right: 5rem;
+        padding-left: inherit; }
+      .bannercontainer .tp-caption.black:before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 70px;
+        height: 1px;
+        top: 50%;
+        background: #282828;
+        left: 0; }
+        .rtl .bannercontainer .tp-caption.black:before {
+          right: 0;
+          left: auto; }
+    .bannercontainer .tp-caption.white {
+      font-size: 0.8125rem;
+      color: #FFFFFF;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 1.5rem;
+      letter-spacing: 0.1875rem; }
+    .bannercontainer .tp-caption.noshadow {
+      text-shadow: none; }
+    .bannercontainer .tp-caption.btn-shopnow {
+      text-align: center;
+      line-height: 1.5rem;
+      min-width: 21.25rem;
+      min-height: 2.75rem; }
+      .bannercontainer .tp-caption.btn-shopnow .fa {
+        margin-right: 0.3125rem; }
+    .bannercontainer .tp-caption.fullscreenvideo {
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+      .bannercontainer .tp-caption.fullscreenvideo iframe {
+        width: 100% !important;
+        height: 100% !important; }
+    .bannercontainer .tp-caption .caption-contain {
+      width: auto !important; }
+
+/*# sourceMappingURL=typo.css.map */

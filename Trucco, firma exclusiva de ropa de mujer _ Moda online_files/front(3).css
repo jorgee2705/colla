@@ -1,0 +1,169 @@
+/**
+* 2007-2017 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2017 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+#pagenotfound .pagenotfound.custompagenotfound.template2,
+#pagenotfound .pagenotfound.custompagenotfound.template1 {
+  margin: 55px auto;
+}
+.template2 .bigblack, .template1 .bigblack{
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: black;
+}
+#pagenotfound .pagenotfound.custompagenotfound p{
+  border-bottom: none;
+}
+#pagenotfound .pagenotfound.template2 p.midgray,
+#pagenotfound .pagenotfound.template1 p.midgray{
+  font-family: sans-serif;
+  font-size: 21px;
+  color: #afafaf;
+  font-weight: lighter;
+  border: none;
+  max-width: 481px;
+  margin: 0 auto;
+  text-transform: none;
+}
+.red{
+  color: #e43556;
+}
+.blue{
+  color: #4783f2;
+}
+#pagenotfound .pagenotfound.custompagenotfound.template2 .form-control{
+  background: white;
+  padding: 25px;
+  height: auto;
+  margin: 0;
+  box-shadow: 10px 10px 14px 0px rgba(71,131,242,0.21);
+  border: 1px solid #e6edfb;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#pagenotfound .pagenotfound.custompagenotfound.template1 .form-control{
+  max-width: 482px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0;
+  font-size: 14px;
+  height: auto;
+  padding: 24px;
+  background: #f5f5f5;
+  margin: 0;
+  display: inline-block;
+  line-height: 20px;
+}
+#pagenotfound .pagenotfound.custompagenotfound.template2 .button.button-small{
+  background: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 20px;
+  height: 70px;
+  padding: 24px;
+  color: #4783f2;
+  border: 1px solid #e6edfb;
+  border-left: none;
+  box-shadow: 10px 10px 14px 0px rgba(71,131,242,0.21);
+}
+#pagenotfound .pagenotfound.custompagenotfound.template1 .button.button-small{
+  background: #f5f5f5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  height: auto;
+  padding: 24px;
+  color: #e43c5c;
+  line-height: 20px;
+}
+#pagenotfound .pagenotfound.custompagenotfound.template2 .button.button-small span,
+#pagenotfound .pagenotfound.custompagenotfound.template1 .button.button-small span{
+  border: 0;
+  padding: 0;
+}
+.pagenotfound.template2 .button.button-medium,
+.pagenotfound.template2 .button.button-medium span{
+  background: #4783f2;
+  border: none;
+  border-radius: 50px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.pagenotfound.template1 .button.button-medium,
+.pagenotfound.template1 .button.button-medium span {
+  background: #e43556;
+  border: none;
+  border-radius: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.buttons > .btn.btn-default.button.button-medium{
+  padding: 0;
+  margin-left: calc(50% - 73px);
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
+.pagenotfound.template1 .button.button-medium span {
+  padding: 18px 28px 18px 26px;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+@media (max-width: 648px){
+  #pagenotfound .pagenotfound.template1 > img{
+    max-width: 417px;
+    width: 100%;
+  }
+  #pagenotfound .pagenotfound.template1 p.midgray{
+    font-size: 16px;
+  }
+  .bigblack{
+    font-size: 24px;
+  }
+  #pagenotfound .pagenotfound.custompagenotfound.template1 .button.button-small{
+    padding: 16px;
+  }
+  #pagenotfound .pagenotfound.custompagenotfound.template1 .form-control{
+    display: inline-block;
+    width: calc(100% - 67px);
+    padding: 16px;
+  }
+}
+@media (max-width: 480px){
+  .template1 .bigblack{
+    font-size: 20px;
+  }
+  #pagenotfound .pagenotfound.template1 p.midgray{
+    font-size: 14px;
+  }
+}

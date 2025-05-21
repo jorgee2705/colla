@@ -1,0 +1,29 @@
+                                        #pstBannerCountdown-1 .pbc-main .pbc-count {
+                background-color: #ffffff;
+                }
+                                                        #pstBannerCountdown-1 .pbc-main .pbc-count,
+                #pstBannerCountdown-1 .pstbannercountdown.pbc-show-colon .pbc-main .pbc-count:after {
+                color: rgb(5, 0, 0) !important;
+                }
+                                        #pstBannerCountdown-1 .pbc-main .pbc-highlight .pbc-count {
+            color: #333333 !important;
+            }
+                            #pstBannerCountdown-1 .pbc-main .pbc-label {
+            color: rgb(247, 244, 244) !important;
+            }
+                                        #pstBannerCountdown-1 .pstbannercountdown {
+            border-color: #e1e1e1 !important;
+            }
+                            #pstBannerCountdown-1 .pstbannercountdown .pbc_h,
+            #pstBannerCountdown-1 .pstbannercountdown .pbc-offer-ends {
+            color: rgb(253, 249, 249);
+            }
+        
+        
+        
+                    #pstBannerCountdown-1 .pstbannercountdown {
+            font-size: 160% !important;
+            }
+        
+        
+            

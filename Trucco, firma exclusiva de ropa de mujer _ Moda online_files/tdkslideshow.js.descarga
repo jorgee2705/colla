@@ -1,0 +1,25 @@
+/**
+*
+* PrestaShop module created by TDK Studio, A young & creative agency focus on Digital platform
+*
+* @author    TDK Studio
+* @copyright 2018-9999 TDK Studio
+* @license   This program is not free software and you can't resell and redistribute it
+*
+* CONTACT WITH DEVELOPER
+* Email/Skype: info.tdkstudio@gmail.com
+* 
+**/
+/**
+ * List functions will run when document.ready()
+ */
+$(document).ready(function()
+{
+    if(typeof (tdkslideshow_list_functions) != 'undefined')
+    {
+        for (var i = 0; i < tdkslideshow_list_functions.length; i++)
+        {
+            tdkslideshow_list_functions[i]();
+        }
+    }
+});
